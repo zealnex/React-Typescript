@@ -1,0 +1,167 @@
+{
+  "common": {
+    "companyName": "PSG Business Solutions",
+    "companyLogo": {
+      "src": "https://api.psgbs.com/abs/v1/module/get-abs-logo",
+      "alt": "PSGBS Logo"
+    },
+    "companyFooterInfo": "© 2024 PSG Business Solutions. All Rights Reserved."
+  },
+  "header": {
+    "menuItems": [
+      { "href": "#home", "text": "Home" },
+      { "href": "#services", "text": "Services" },
+      { "href": "#features", "text": "Features" },
+      { "href": "#about", "text": "About" },
+      { "href": "#contact", "text": "Contact" }
+    ],
+    "buttons": [{ "href": "/abs/user/login", "text": "Log in" }]
+  },
+  "main": {
+    "heading": [
+      "Say Goodbye to Manual Assignment Hassles!",
+      "Elevate Your Factory's Productivity with Assign-By-Skill"
+    ],
+    "content": "Unlock the Potential of Automated Job Allocation",
+    "buttons": [
+      { "href": "/abs/user/register", "text": "Get Started" },
+      { "href": "/abs/user/login", "text": "Login" }
+    ]
+  },
+  "services": {
+    "title": "Revolutionize Your Workforce Management",
+    "services": [
+      {
+        "title": "Precision at Every Assignment",
+        "description": "Scientific algorithms which evaluates all possibilities for optimal assignments, ensuring organizational benefits.",
+        "icon": "M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
+      },
+      {
+        "title": "Boost Productivity",
+        "description": "Eliminate the cumbersome manual assignment which affects productivity during first few hours of the every shift in your factory.",
+        "icon": "M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM3 10a3 3 0 100 6 3 3 0 000-6zm14 0a3 3 0 100 6 3 3 0 000-6zM6 14a3 3 0 100 6 3 3 0 000-6zm8 0a3 3 0 100 6 3 3 0 000-6z"
+      },
+      {
+        "title": "Streamlined Workflow",
+        "description": "ABS ensures a seamless allocation and shuffling of employees between lines and workstations.",
+        "icon": "M17 2a1 1 0 011 1v4.586l-1.707-1.707a1 1 0 00-1.414 0L12 8.586l-1.879-1.879a1 1 0 00-1.414 0L6 8.586 4.293 6.879a1 1 0 00-1.414 0L2 7.414V3a1 1 0 011-1h14zm0 10a1 1 0 011 1v4a1 1 0 01-1 1H3a1 1 0 01-1-1v-4a1 1 0 011-1h2a1 1 0 000-2H3a3 3 0 00-3 3v4a3 3 0 003 3h14a3 3 0 003-3v-4a3 3 0 00-3-3h-2a1 1 0 000 2h2z"
+      },
+      {
+        "title": "Fairness at the Core",
+        "description": "ABS ensures that every employee is assigned based on skills, eradicating bias and favoritism.",
+        "icon": "M17 2a1 1 0 011 1v4.586l-1.707-1.707a1 1 0 00-1.414 0L12 8.586l-1.879-1.879a1 1 0 00-1.414 0L6 8.586 4.293 6.879a1 1 0 00-1.414 0L2 7.414V3a1 1 0 011-1h14zm0 10a1 1 0 011 1v4a1 1 0 01-1 1H3a1 1 0 01-1-1v-4a1 1 0 011-1h2a1 1 0 000-2H3a3 3 0 00-3 3v4a3 3 0 003 3h14a3 3 0 003-3v-4a3 3 0 00-3-3h-2a1 1 0 000 2h2z"
+      },
+      {
+        "title": "Reduce Idle Time",
+        "description": "Assigning your employees before they step into the factory, allowing them to start their work instantly.",
+        "icon": "M7 2v11h3v9l7-12h-4l4-8z"
+      },
+      {
+        "title": "Anytime and Anywhere",
+        "description": "Assign your Employees to various Workstations and Lines in your factory,remotely sitting at your Corporate Office or anywhere in the world.",
+        "icon": "M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
+      }
+    ]
+  },
+  "features": {
+    "section1": [
+      {
+        "title": "Empowering Your Team",
+        "description": "ABS is not just a tool, It's a morale booster. By ensuring fair and skill-aligned assignments, ABS empowers your employees, fostering a positive organization culture and boosting morale across the board."
+      },
+      {
+        "title": "Error-Free Assignments",
+        "description": "Bid farewell to Type I and Type II errors. ABS uses advanced algorithms to prevent Assigning wrong workstation (Type I) or Not Assigning the right workstation (Type II) to employees, ensuring a flawless workflow."
+      },
+      {
+        "title": "Optimal Configuration for Maximum Value",
+        "description": "ABS guarantees the best possible assignment configurations, maximizing value addition to your operations. Our automated system evaluates all possibilities to implement the most efficient and beneficial configurations."
+      }
+    ],
+    "section2": [
+      {
+        "title": "Effortless Assignments",
+        "icon": "M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z",
+        "description": "Unlock the Potential of Automated Job Allocation."
+      },
+      {
+        "title": "Eliminate Bias",
+        "icon": "M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z",
+        "description": "A Fair and Objective Assignment mitigating favoritism."
+      },
+      {
+        "title": "Enhance Efficiency",
+        "icon": "M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z",
+        "description": "Automate the allocation process and concentrate on your Business Criticalties."
+      },
+      {
+        "title": "Experience Flexibility",
+        "icon": "M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z",
+        "description": "A solution for all your needs in allocation."
+      }
+    ],
+    "link": [
+      { "href": "/abs/user/register", "text": "Experience the ABS Advantage" },
+      {
+        "href": "#contact",
+        "text": "Having queries? We are happy to help you"
+      }
+    ]
+  },
+  "about": {
+    "heading": "About us",
+    "topicTop": "We are a Professionally Managed Consultancy Firm, based at Chennai, Established by Technocrats, having extensive industry experience and thorough understanding of the challenges faced by businesses.",
+    "topicBottom": "Our mission is to revolutionize employee assignment, improving efficiency and productivity.",
+    "items": [
+      {
+        "title": "We are committed to address the challenges to transform the ecosystem better than what it is today."
+      },
+      {
+        "title": "As the saying goes, Machines and Buildings can be there, but without People they are nothing. So We aim to make the professional life of the employees better while improving the Financial Metrics of the Businesses."
+      },
+      {
+        "title": "We Strongly believe that, To improve results, just monitoring them is not at all sufficient but fixing the Processes is of Prime Importance."
+      },
+      {
+        "title": "We strive, continuously, to develop innovative and scientific solutions to challenge the challenges of businesses."
+      },
+      {
+        "title": "And attempting to address one such challenge has led to the birth of our Flagship Solution - ASSIGN-BY-SKILL (ABS)"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Have any queries?",
+    "description": "We would love to hear from you. Please fill out the form below and we will get back to you as soon as possible.",
+    "email": "info@psgbs.com",
+    "phone": "+91 91502 26630"
+  },
+  "footer": {
+    "menuItems": [
+      {
+        "category": "Company",
+        "links": [
+          { "text": "About", "href": "#about" },
+          { "text": "Mission", "href": "#about" },
+          { "text": "Vision", "href": "#about" }
+        ]
+      },
+      {
+        "category": "Our Services",
+        "links": [{ "text": "Assign By Skill", "href": "/abs" }]
+      },
+      {
+        "category": "Help center",
+        "links": [{ "text": "Contact Us", "href": "#contact" }]
+      },
+      {
+        "category": "Legal",
+        "links": [
+          { "text": "Privacy Policy", "href": "#" },
+          { "text": "Licensing", "href": "#" },
+          { "text": "Terms and Condtions", "href": "#" }
+        ]
+      }
+    ]
+  }
+}

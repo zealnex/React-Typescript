@@ -1,0 +1,114 @@
+.background {
+  background-color: #f3f4f6;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 5rem;
+  max-width: 1280px;
+}
+.head {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 64rem;
+  text-align: center;
+}
+.text_align_center {
+  text-align: center;
+}
+.title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: #0082f3;
+}
+.m_bottom {
+  margin-bottom: 1.5rem;
+}
+.description {
+  margin-bottom: 1rem;
+  font-weight: 300;
+  color: #6b7280;
+
+  @media (min-width: 1024px) {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+.body {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.form {
+  @media (min-width: 1024px) {
+    width: 100%;
+  }
+}
+.content {
+  margin-bottom: 1.5rem;
+
+  @media (min-width: 1024px) {
+    display: flex;
+    gap: 1rem;
+  }
+}
+.box {
+  margin-bottom: 1rem;
+
+  @media (min-width: 1024px) {
+    margin-bottom: 0;
+    flex: 1 1 0%;
+  }
+}
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  color: #374151;
+}
+.input {
+  height: 24px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-color: #d1d5db;
+  width: 90%;
+  color: #374151;
+}
+.btn {
+  border: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #0082f3 !important;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  transition-duration: 300ms;
+
+  :hover {
+    background-color: #0082f3;
+  }
+}
+.m_top {
+  margin-top: 0.75rem;
+}
