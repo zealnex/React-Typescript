@@ -1,11 +1,9 @@
-import { Link } from 'react-router-dom';
 import s from './footer-section.module.css';
 import { Data } from '../../types';
 interface Props {
   data: Data;
 }
 export const FooterSection = ({ data }: Props) => {
-  const { companyFooterInfo } = data.common;
   const { menuItems } = data.footer;
 
   return (
