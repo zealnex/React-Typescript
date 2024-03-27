@@ -55,6 +55,7 @@
   height: 3rem;
   color: #0082f3;
 }
+
 .sub_title {
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
@@ -64,4 +65,18 @@
 }
 .description {
   color: #6b7280;
+}
+
+.hoverEffect:hover {
+  transform: scale(1.05); 
+  background-color: #0082f3; 
+  color: white; 
+  cursor: default;
+  border-radius: 10px;
+  height: 120%;
+}
+.hoverEffect:hover .sub_title,
+.hoverEffect:hover .description,
+.hoverEffect:hover .svg {
+  color: white; 
 }

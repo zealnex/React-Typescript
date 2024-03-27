@@ -1,8 +1,10 @@
 import { Data } from '../../types';
 import s from './services-section.module.css';
+
 interface Props {
   data: Data;
 }
+
 export const ServicesSection = ({ data }: Props) => {
   const { title, services } = data.services;
 
@@ -12,13 +14,10 @@ export const ServicesSection = ({ data }: Props) => {
         <div className={s.flex}>
           <div className={s.display}>
             <h2 className={s.title}>{title}</h2>
-            {/* <p className="text-lg text-gray-500 dark:text-gray-400">
-              Find how Assign By Skill will help your factory.
-            </p> */}
           </div>
           {services.map((service, index) => (
-            <div className={s.section} key={index}>
-              <div className={s.item}>
+            <div className={`${s.section}`} key={index}>
+              <div className={`${s.item}, , ${s.hoverEffect}`}> 
                 <svg
                   className={s.svg}
                   fill="currentColor"
