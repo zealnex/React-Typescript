@@ -1,14 +1,15 @@
-/* eslint-disable react-hooks/rules-of-hooks */
 import { Data } from '../../types';
 import s from './about-section.module.css';
+
 interface Props {
   data: Data;
 }
+
 export const AboutSection = ({ data }: Props) => {
   const { items, heading, topicTop, topicBottom } = data.about;
 
   const listItems = items.map((item, index) => (
-    <li key={index} data-aos="fade-left" className={s.li}>
+    <li key={index} className={s.li}>
       <svg
         className={s.svg}
         fill="currentColor"
@@ -29,45 +30,12 @@ export const AboutSection = ({ data }: Props) => {
     <section id="about" className={s.background}>
       <div className={s.container}>
         <div className={s.section}>
-          {/* <img
-            data-aos="fade-right"
-            className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-            src="feature-2.jpg"
-            alt="feature 2"
-          /> */}
           <div className={s.box}>
-            <h2
-              data-aos="fade-up"
-              data-aos-offset="200"
-              data-aos-delay="30"
-              data-aos-duration="800"
-              data-aos-easing="ease-in-out"
-              data-aos-once="false"
-              className={s.heading}
-            >
-              {heading}
-            </h2>
-            <p data-aos="fade-left" className={s.top_topic}>
-              {topicTop}
-            </p>
-
-            <h4
-              data-aos="fade-up"
-              data-aos-offset="200"
-              data-aos-delay="30"
-              data-aos-duration="800"
-              data-aos-easing="ease-in-out"
-              data-aos-once="false"
-              className={s.choose}
-            >
-              Why Choose Us?
-            </h4>
-
+            <h2 className={s.heading}>{heading}</h2>
+            <p className={s.top_topic}>{topicTop}</p>
+            <h4 className={s.choose}>Why Choose Us?</h4>
             <ul className={s.list}>{listItems}</ul>
-
-            <p data-aos="fade-left" className={s.fade}>
-              {topicBottom}
-            </p>
+            <p className={s.fade}>{topicBottom}</p>
           </div>
         </div>
       </div>
